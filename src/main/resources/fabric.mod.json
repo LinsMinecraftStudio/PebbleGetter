@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "pebblegetter",
+  "version": "${version}",
+  "name": "PebbleGetter",
+  "description": "",
+  "authors": [
+    "mmmjjkx"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/PebbleGetter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.mmmjjkx.pebblegetter.PebbleGetter"
+    ]
+  },
+  "mixins": [
+    "PebbleGetter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3",
+    "linsapi": "1.3"
+  }
+}
